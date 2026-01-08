@@ -1,5 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\02_BO\BoBase.Bo\BoBase.Bo.csproj" />
+    <ProjectReference Include="..\..\03_DAO\BaseDao.Dao\BaseDao.Dao.csproj" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
