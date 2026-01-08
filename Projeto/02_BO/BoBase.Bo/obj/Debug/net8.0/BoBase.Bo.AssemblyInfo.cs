@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("BaseDao.Dao")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("BoBase.Bo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9c0d215571163ce52590e38ffc3c3de778b07fd3")]
-[assembly: System.Reflection.AssemblyProductAttribute("BaseDao.Dao")]
-[assembly: System.Reflection.AssemblyTitleAttribute("BaseDao.Dao")]
+[assembly: System.Reflection.AssemblyProductAttribute("BoBase.Bo")]
+[assembly: System.Reflection.AssemblyTitleAttribute("BoBase.Bo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
