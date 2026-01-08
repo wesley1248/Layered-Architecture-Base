@@ -8,24 +8,31 @@
     "net8.0": []
   },
   "packageFolders": {
-    "/home/wesleytms/.nuget/packages/": {}
+    "C:\\Users\\wesle\\.nuget\\packages\\": {},
+    "D:\\Apps\\Visual Studio\\Componetes\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/wesleytms/Seed Project/Projeto/02_BO/BoBase.Bo/BoBase.Bo.csproj",
+      "projectUniqueName": "D:\\Layered-Architecture-Base\\Projeto\\02_BO\\BoBase.Bo\\BoBase.Bo.csproj",
       "projectName": "BoBase.Bo",
-      "projectPath": "/home/wesleytms/Seed Project/Projeto/02_BO/BoBase.Bo/BoBase.Bo.csproj",
-      "packagesPath": "/home/wesleytms/.nuget/packages/",
-      "outputPath": "/home/wesleytms/Seed Project/Projeto/02_BO/BoBase.Bo/obj/",
+      "projectPath": "D:\\Layered-Architecture-Base\\Projeto\\02_BO\\BoBase.Bo\\BoBase.Bo.csproj",
+      "packagesPath": "C:\\Users\\wesle\\.nuget\\packages\\",
+      "outputPath": "D:\\Layered-Architecture-Base\\Projeto\\02_BO\\BoBase.Bo\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\Apps\\Visual Studio\\Componetes\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/home/wesleytms/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\wesle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -38,7 +45,13 @@
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -59,7 +72,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.122/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

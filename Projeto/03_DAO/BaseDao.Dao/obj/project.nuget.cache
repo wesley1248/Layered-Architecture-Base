@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tBwnRt7szt1WckVCnp8xbz05QfoiyULU5YQtylM9HXJWBTdNjcD+3my0da1dXp0S2SG7MUzo0OHJ7WQKtPFaDg==",
+  "dgSpecHash": "QUjhShBGlow=",
   "success": true,
-  "projectFilePath": "/home/wesleytms/Seed Project/Projeto/03_DAO/BaseDao.Dao/BaseDao.Dao.csproj",
+  "projectFilePath": "D:\\Layered-Architecture-Base\\Projeto\\03_DAO\\BaseDao.Dao\\BaseDao.Dao.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

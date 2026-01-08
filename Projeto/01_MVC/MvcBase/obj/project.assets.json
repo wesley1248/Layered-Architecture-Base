@@ -1,44 +1,102 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "BaseDao.Dao/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "BoBase.Bo": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BaseDao.Dao.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BaseDao.Dao.dll": {}
+        }
+      },
+      "BoBase.Bo/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/BoBase.Bo.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BoBase.Bo.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "BaseDao.Dao/1.0.0": {
+      "type": "project",
+      "path": "../../03_DAO/BaseDao.Dao/BaseDao.Dao.csproj",
+      "msbuildProject": "../../03_DAO/BaseDao.Dao/BaseDao.Dao.csproj"
+    },
+    "BoBase.Bo/1.0.0": {
+      "type": "project",
+      "path": "../../02_BO/BoBase.Bo/BoBase.Bo.csproj",
+      "msbuildProject": "../../02_BO/BoBase.Bo/BoBase.Bo.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "BaseDao.Dao >= 1.0.0",
+      "BoBase.Bo >= 1.0.0"
+    ]
   },
   "packageFolders": {
-    "/home/wesleytms/.nuget/packages/": {}
+    "C:\\Users\\wesle\\.nuget\\packages\\": {},
+    "D:\\Apps\\Visual Studio\\Componetes\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/wesleytms/Seed Project/Projeto/01_MVC/MvcBase/MvcBase.csproj",
+      "projectUniqueName": "D:\\Layered-Architecture-Base\\Projeto\\01_MVC\\MvcBase\\MvcBase.csproj",
       "projectName": "MvcBase",
-      "projectPath": "/home/wesleytms/Seed Project/Projeto/01_MVC/MvcBase/MvcBase.csproj",
-      "packagesPath": "/home/wesleytms/.nuget/packages/",
-      "outputPath": "/home/wesleytms/Seed Project/Projeto/01_MVC/MvcBase/obj/",
+      "projectPath": "D:\\Layered-Architecture-Base\\Projeto\\01_MVC\\MvcBase\\MvcBase.csproj",
+      "packagesPath": "C:\\Users\\wesle\\.nuget\\packages\\",
+      "outputPath": "D:\\Layered-Architecture-Base\\Projeto\\01_MVC\\MvcBase\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\Apps\\Visual Studio\\Componetes\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/home/wesleytms/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\wesle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Layered-Architecture-Base\\Projeto\\02_BO\\BoBase.Bo\\BoBase.Bo.csproj": {
+              "projectPath": "D:\\Layered-Architecture-Base\\Projeto\\02_BO\\BoBase.Bo\\BoBase.Bo.csproj"
+            },
+            "D:\\Layered-Architecture-Base\\Projeto\\03_DAO\\BaseDao.Dao\\BaseDao.Dao.csproj": {
+              "projectPath": "D:\\Layered-Architecture-Base\\Projeto\\03_DAO\\BaseDao.Dao\\BaseDao.Dao.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -62,7 +120,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.122/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

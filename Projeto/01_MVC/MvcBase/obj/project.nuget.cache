@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "t26O2F+0rK7YOdelhtr3L1JIKCNqm9X8268LATWqkTbsRr8oWZ02Pr/nHB3ozIMups6h/ThF0gd0p0vEHCYEJA==",
+  "dgSpecHash": "7l+P3v0sAlQ=",
   "success": true,
-  "projectFilePath": "/home/wesleytms/Seed Project/Projeto/01_MVC/MvcBase/MvcBase.csproj",
+  "projectFilePath": "D:\\Layered-Architecture-Base\\Projeto\\01_MVC\\MvcBase\\MvcBase.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
